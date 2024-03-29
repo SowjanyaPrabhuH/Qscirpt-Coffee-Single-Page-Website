@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QScript Coffee</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts Links For Icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+
+  <header>
+
+    <nav class="navbar">
+      <div class="logo">
+        <a class="logo" href="#"> QScriptCoffee<span>.</span></a>
+       </div>
+      <ul class="menu-links">
+        <li>
+          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+        </li>
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#" id="menu-link">Menu</a>
+          <ul class="dropdown-menu">
+            <li><a href="#menu-card">Pastry</a></li>
+            <li><a href="#menu-card">Cookie</a></li>
+            <li><a href="#menu-card">Milkshakes</a></li>
+          </ul>
+        </li>
+        <!-- <li><a href="#">About</a></li> -->
+        <li><a href="#about-us">About us</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+      
+      <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <div class="content">
+      <h2>Start Your Day With Fresh Coffee</h2>
+      <p>
+        Coffee is a popular and beloved beverage enjoyed by people around the
+        world. Awaken your senses with a steaming cup of liquid motivation.
+      </p>
+      <button> Order Now </button>
+    </div>
+  </section>
+  <section id="about-us">
+    <div class="about-container">
+      <img src="images/cafe.jpg" alt="About Us Image" class="about-image" />
+      <div class="about-content">
+        <h2>Our Cafe</h2>
+        <p>
+          Step into our cafe, and you'll be greeted by the rich aroma of
+          freshly roasted coffee, the friendly smiles of our baristas, and the
+          inviting ambiance that beckons you to unwind and recharge. Whether
+          you're a coffee aficionado or simply seeking a moment of respite
+          from the hustle and bustle, QScript Coffee is your oasis in a busy
+          world.
+        </p>
+        <button><a href="#hero-section">Our History</a></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu-card" style="background-image: url(images/bgone.png);">
+    <div class="title">
+      <h2>Our Special Menu</h2>
+      <p>"Indulge in our exquisite menu crafted with passion and flavor."</p>
+    </div>
+
+    <div class="menu-items">
+      <div class="menu-item hidden">
+        <div class="content">
+          <h3>Caramel Frappuccino</h3>
+          <p class="price">$3.05</p>
+          <p class="des">
+            Experience the blissful indulgence of our Caramel Frappuccino! This delightful creation blends rich espresso
+            with creamy milk, decadent caramel syrup, and ice, all blended to perfection. Topped with a generous swirl
+            of whipped cream and a drizzle of caramel sauce, every sip is a symphony of flavor.
+          </p>
+        </div>
+        <img src="images/Caramel-Frappuccino.jpg" alt="items" />
+      </div>
+      <div class="menu-item hidden">
+        <div class="content">
+          <h3>Easy Iced Mocha</h3>
+          <p class="price">$4.99</p>
+          <p class="des">
+            "Enjoy a refreshing homemade Iced Mocha by brewing strong coffee, chilling it, then pouring it over ice. Mix
+            milk and chocolate syrup, pour over coffee, and gently stir. Add whipped cream and cocoa powder for a touch
+            of luxury. Perfect for sunny days or a delightful pick-me-up anytime. Savor the irresistible blend of coffee
+            and chocolate in every sip!"
+          </p>
+        </div>
+        <img src="images/Easy-Iced-Mocha-Recipe-with-DIY-Mocha-Syrup-_-Wholefully.jpg" alt="items" />
+      </div>
+      <div class="menu-item hidden">
+        <div class="content">
+          <h3>Chocolate Cookie Milkshake Smoothie</h3>
+          <p class="price">$6.09</p>
+          <p class="des">
+            Indulge in our decadent Chocolate Cookie Milkshake Smoothie! Blend crushed chocolate cookies, milk, and ice
+            cream for a creamy delight. Top with whipped cream and cookie crumbs for extra indulgence. Perfect for a
+            summer refreshment or a comforting dessert.</p>
+        </div>
+        <img src="images/Chocolate-Cookie-Milkshake-Smoothie-.jpg" alt="items" />
+      </div>
+      <div class="menu-item hidden">
+        <div class="content">
+          <h3>Tiramisu Affogato </h3>
+          <p class="price">$7.05</p>
+          <p class="des"> The coffee's warmth melds perfectly with the cool gelato, creating a heavenly experience for
+            your taste buds. Enjoy the harmonious contrast of flavors and textures as you indulge in this
+            Italian-inspired delight. Whether you're treating yourself on a sunny afternoon or ending a meal with a
+            touch of elegance, our Tiramisu Affogato is sure to satisfy your cravings.</p>
+        </div>
+        <img src="images/Tiramisu-Affogato.jpg" alt="items" />
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonial" style="background-image: url(images/bgone.png);">
+    <div class="test-text">
+      <h2>Testimonial</h2>
+    </div>
+    <div class="client-card">
+      <div class="card">
+        <div class="img-space">
+          <img src="images/cilent1.jpg" alt="client1" />
+        </div>
+        <div class="data">
+          <h3>Isabella Nguyen</h3>
+          <div class="star-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span>
+            <span class="star">&#9734;</span> <!-- Change to filled star for rating -->
+          </div>
+          <p>
+            <span class="span"> " </span>Qscript Café has been my go-to for years. With the best coffee in town and a
+            delectable menu, it's always buzzing with satisfied customers. <span class="span"> " </span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-space">
+          <img src="images/cilent2.jpg" alt="client2" />
+        </div>
+        <div class="data">
+          <h3> Xavier Patel</h3>
+          <div class="star-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span> <!-- Change to filled star for rating -->
+          </div>
+          <p>
+            <span class="span"> " </span> Qscript Café is my sanctuary. The serene ambiance, perfect brews, and friendly
+            staff make every visit pure bliss. <span class="span"> " </span>
+          </p>
+
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-space">
+          <img src="images/cilent3.jpg" alt="client3" />
+        </div>
+        <div class="data">
+          <h3>Marcella Thompson</h3>
+          <div class="star-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span> <!-- Change to filled star for rating -->
+          </div>
+          <p>
+            <span class="span"> " </span>Qscript Café was a delightful find! The aroma of fresh coffee, cozy atmosphere,
+            and heavenly pastries make it my favorite spot for a coffee break.<span class="span"> " </span>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-space">
+          <img src="images/client4.jpg" alt="client3" />
+        </div>
+        <div class="data">
+          <h3>Jasmine Rodriguez</h3>
+          <div class="star-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span> <!-- Change to filled star for rating -->
+          </div>
+          <p>
+            <span class="span"> " </span>Qscript Café is a coffee lover's dream! Unparalleled coffee quality, skilled
+            baristas, and delicious desserts keep me coming back for more. <span class="span"> " </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" style="background-image: url(images/bgone.png);">
+
+
+    <h2>Contact Us</h2>
+    <div class="contact-side">
+
+
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea type="text" id="message" name="" rows=" 4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="map">
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.030195464752!2d-74.00594199999999!3d40.712775999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598f0ecf7467%3A0xf7a2e21b898ba7ff!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1648318282971!5m2!1sen!2sin"
+          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    </div>
+
+
+    <footer>
+      <div class="top">
+        <div class="logo">
+          <h1>QScript Coffee <span>.</span></h1>
+        </div>
+        <div class="nav-footer">
+
+          <a href="#">Home</a>
+          <a href="#">Menu</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="address">
+          <h3>Address</h3>
+          <p>
+            198 West 21th Street, Suite 721 India 10016<br />
+            +1235 2355 98<br />
+            <a href="mailto:info@qscriptcoffee.com">info@qscriptcoffee.com</a><br />
+            <a href="http://qscriptcoffee.com">qscriptcoffee.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="bottom">
+        <p>&copy; 2024 QScript Coffee</p>
+      </div>
+    </footer>
+
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
